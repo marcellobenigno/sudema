@@ -1,0 +1,23 @@
+{% load activeurl %}
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+  <a class="navbar-brand" href="{% url 'core:index' %}">SIG SUDEMA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+  	{% activeurl %}
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="{% url 'core:index' %}">Início</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="{% url 'core:pag2' %}">Página 2</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="{% url 'core:sobre' %}">Sobre</a>
+	      </li>
+	    </ul>
+	{% endactiveurl %}
+  </div>
+</nav>

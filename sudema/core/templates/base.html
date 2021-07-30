@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SIG SUDEMA</title>
+	<link rel="stylesheet" href="{% static 'libs/bootstrap/css/bootstrap.min.css' %}">
+
+</head>
+<body>
+	{% include 'includes/menu.html' %}
+
+
+	{% block conteudo %}
+
+	{% endblock conteudo %}
+
+
+	<hr>
+	<small>SIG SUDEMA &copy; - Todos os direitos reservados</small>
+
+
+	<script src="{% static 'libs/jquery/jquery.min.js' %}"></script>
+	<script src="{% static 'libs/bootstrap/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'libs/popper/popper.min.js' %}"></script>
+</body>
+</html>
