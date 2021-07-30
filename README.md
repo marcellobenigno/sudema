@@ -16,4 +16,4 @@ git remote set-url origin git@github.com:marcellobenigno/sudema.git
 
 ## Link com os vídeos:
 
-https://github.com/marcellobenigno/sudema
+https://drive.google.com/drive/folders/13VzXHvI1HdDINEqRGIOZFgScPAf4naOP?usp=sharing
