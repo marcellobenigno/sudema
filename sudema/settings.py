@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # GeoDjango
+    'django.contrib.gis',
     # Third apps
     'django_activeurl',
     # my apps
